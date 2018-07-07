@@ -1,11 +1,19 @@
 export const Color = {
-	Black: '#303036',
-	White: '#fff',
+	White: '#edf2f4',
+	Black: '#1b1b1e',
+	BlackLight: '#6d6d6d',
+	Gray: '#d7dadb',
+	GrayLight: '#e3e7e9',
+	Red: '#ef233c',
+	Blue: '#2b2d42',
+	BlueLight: '#8d99ae',
+	FacebookBlue: '#3b5998',
+	GoogleOrange: '#dc483c',
 }
 
 export const Font = (weight, size) => {
 	return `
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-weight: ${weight};
 		font-size: ${size}
 	`
